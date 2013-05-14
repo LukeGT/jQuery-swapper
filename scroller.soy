@@ -1,0 +1,15 @@
+{namespace stash.plugin}
+
+/**
+ * @param top
+ * @param bottom
+ */
+{template .scroller}
+    <span class="scroller">
+        <span>
+            <span>{$top|noAutoescape}</span>
+            <br>
+            <span>{$bottom|noAutoescape}</span>
+        </span>
+    </span>
+{/template}
